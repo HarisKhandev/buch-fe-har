@@ -1,0 +1,98 @@
+.bg-light-yellow {
+  background-color: #fff4e7 !important;
+}
+
+.text-yellow {
+  color: #ff8c06 !important;
+}
+
+.bg-light-green {
+  background-color: rgba(27, 207, 180, 0.1) !important;
+}
+
+.text-green {
+  color: #1bcfb4 !important;
+}
+
+.bg-light-purple {
+  background-color: #e8e9fd !important;
+}
+
+.text-purple {
+  color: #ac80f7;
+}
+
+.bg-light-gray {
+  background-color: #fbfbfb;
+}
+
+.table-status {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.modal-content {
+  border-radius: 0;
+  border: 0;
+}
+
+.modal-header {
+  border-bottom: 2px solid #eaedf3;
+}
+
+.btn-close {
+  font-size: 10px;
+}
+
+.submit-btn {
+  border-radius: 4px;
+  border: 1px solid #b3d05c;
+  background: #b3d05c;
+  padding: 9px 50px;
+}
+
+.border-gray {
+  border-color: #eff2f5 !important;
+}
+
+.ambulance-scheduled span {
+  color: #979797;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.ambulance-scheduled h5 {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+}
+
+.ambulance-scheduled .modal-content {
+  height: 92vh;
+  overflow: hidden;
+}
+
+.ambulance-scheduled .modal-body {
+  overflow: scroll;
+}
+
+.modal-header-border {
+  border-bottom: 2px solid #eaedf3;
+}
+
+.edit-delete-btn span {
+  color: #979797;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.table-status-dropdown-menu :is(.dropdown-item:active, .dropdown-item:active:hover) {
+  background-color: #3c3a3b !important;
+}

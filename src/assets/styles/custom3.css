@@ -1,0 +1,250 @@
+.doctor-profile-sidebar {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(107, 108, 111, 0.05);
+  height: 100%;
+  width: 295px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.hr {
+  background: #e2e5ed !important;
+}
+.doctor-profile-sidebar .sidebar-header {
+  background: #3e3f42;
+}
+.doctor-profile-sidebar .sidebar-body .slot-data .slot-data-title {
+  color: #202020;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.doctor-profile-sidebar .sidebar-body .slot-data .slot-data-descrioption {
+  color: #939393 !important;
+  font-size: 12px;
+  font-weight: 500;
+}
+.doctor-profile-sidebar .sidebar-header .doctor-column-set {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.doctor-profile-sidebar .sidebar-header .doctor-column-set img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.doctor-profile-sidebar .sidebar-header .doctor-column-set .doctor-column-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.doctor-profile-sidebar .sidebar-header .doctor-column-set .doctor-column-code {
+  color: #e9e9e9;
+  font-size: 14px;
+  font-weight: 300;
+}
+.doctor-profile-sidebar .sidebar-body .morning-time-slot .time-slot-main-title {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.doctor-profile-sidebar
+  .sidebar-body
+  .morning-time-slot
+  .time-slot-main-subtitle {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.doctor-profile-sidebar .sidebar-body .morning-time-slot .time-slot-heading {
+  color: var(--dark-grey, #4d4d4d);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.doctor-profile-sidebar .sidebar-body .morning-time-slot .avaiable {
+  border-radius: 4px;
+  padding: 8px 14px !important;
+  border: 0.8px solid var(--primary-600, #829e2e);
+  background: #fff;
+  cursor: unset;
+}
+.doctor-profile-sidebar .sidebar-body .morning-time-slot .booked {
+  border-radius: 4px;
+  background: #b3d05c !important;
+  padding: 8px 14px;
+  border: 0.8px solid var(--primary-600, #b3d05c);
+  cursor: unset;
+}
+.doctor-profile-sidebar .sidebar-body .morning-time-slot .flex-slot-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.doctor-profile-sidebar
+  .sidebar-body
+  .morning-time-slot
+  .time-slot-text-avaiable {
+  color: var(--primary-600, #829e2e);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.doctor-profile-sidebar
+  .sidebar-body
+  .morning-time-slot
+  .time-slot-text-booked {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.doctor-profile-sidebar .sidebar-body .morning-time-slot .working-days {
+  border-radius: 40px;
+  background: var(--primary-50, #f6f9eb);
+  display: inline-flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3c3a3b;
+}
+.doctor-profile-sidebar .profile-sidebar-icon {
+  color: #fff;
+  width: 20px;
+}
+.custom-table-width .custom-table {
+  margin-right: 320px;
+}
+.custom-table-width {
+  position: relative;
+}
+.doctor-profile-sidebar .main-slot-time {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.end-date-span {
+  color: var(--theme-black, #3c3a3b);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/** Create Doctor Schedule **/
+.create-doctor-schedule .toggle-text {
+  color: var(--theme-black, #3c3a3b);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+hr {
+  margin: 0rem 0 1rem 0;
+  color: #e2e5ed;
+}
+.create-doctor-schedule .css-i4bv87-MuiSvgIcon-root {
+  width: 16px !important;
+  height: 16px !important;
+}
+.create-doctor-schedule .end-date-span {
+  font-size: 10px;
+  margin-left: 2px;
+}
+.dropdown-doctor .dropdown-placeholder {
+  color: #939393;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.dropdown-doctor .dropdown .btn {
+  padding: 10px 12px !important;
+}
+.dropdown-doctor .dropdown .btn:active,
+.dropdown-doctor .dropdown .btn:hover{
+  border-color: #B3D05C !important;
+}
+.dropdown-doctor .dropdown .dropdown-search {
+  border-radius: 3px;
+  background: #b3d05c;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  gap: 10px;
+  top: 3px;
+  right: 5px;
+}
+.dropdown-doctor .dropdown .dropdown-search-input {
+  border-radius: 4px;
+  background: #f9fafb !important;
+  border-color: transparent !important;
+  display: inline-flex;
+  padding: 5px 15px;
+  align-items: center;
+  gap: 10px;
+}
+.dropdown-doctor .custom-dropdown-filter-table .dropdown-custom-table tr th {
+  color: #979797;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  border-bottom: 1px solid #e2e5ed;
+  padding: 10px 7px 10px 0px;
+}
+.dropdown-doctor .custom-dropdown-filter-table .dropdown-custom-table tr td {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.577px;
+  padding: 10px 30px 10px 0px;
+  border-bottom: 1px solid #e2e5ed;
+  cursor: pointer;
+}
+
+.dropdown-doctor
+  .custom-dropdown-filter-table
+  .dropdown-custom-table
+  tr:nth-last-child(1)
+  td {
+  border-bottom: unset;
+  padding-bottom: 0px !important;
+}
+
+.dropdown-doctor .custom-dropdown-filter-table .dropdown-menu {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid #e2e5ed;
+  border-radius: 4px;
+}
+.custom-heading-dropdown .dropdown .btn {
+  border: none !important;
+  padding: 0 0 10px 0 !important;
+}
+
+.custom-heading-dropdown .dropdown .dropdown-placeholder {
+  color: var(--theme-black, #3c3a3b);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

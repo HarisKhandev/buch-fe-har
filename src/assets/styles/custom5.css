@@ -1,0 +1,30 @@
+.ambulance-scheduled :is(.doctor-column-set, .patient-column-set) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.ambulance-scheduled :is(.doctor-column-set, .patient-column-set) img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.ambulance-scheduled .sub-name {
+  color: #6B6C6F;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.custom-table :is(.template-btn, .template-btn:active, .template-btn:focus) {
+  background: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #0081CC;
+  outline: unset;
+}
